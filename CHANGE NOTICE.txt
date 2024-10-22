@@ -1,0 +1,21 @@
+=======================================================================
+                 NOTICE REGARDING MIGRATION TO JAKARTA EE
+=======================================================================
+
+Dear Contributors and Users,
+
+This is to inform you that significant changes have been made in the project to migrate from `javax` namespace to `jakarta` namespace. This migration is part of the ongoing efforts to support Jakarta EE, the community-driven specification for enterprise Java.
+
+### Changes Made:
+
+- **Packages Migration:**
+  All occurrences of the `javax` packages have been updated to use the corresponding `jakarta` packages.
+
+- **Dependencies Update:**
+  Dependencies that were relying on `javax` artifacts, if any, have been updated to use their `jakarta` counterparts.
+
+- **Configuration Changes:**
+  Relevant configuration files, if any, have been modified to reflect the changes in package names.
+
+Note: Not all `javax.*` packages are part of Java EE. Only those defined by Java
+EE have moved to the `jakarta.*` namespace.
